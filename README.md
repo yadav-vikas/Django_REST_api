@@ -12,21 +12,21 @@ Django for APIs is a project-based guide to building modern APIs with Django & D
 
 ===============================================================       
 
-| [Web APIs]         
+#### Web APIs
 
-| [Django Rest Framework]     
+#### [Django Rest Framework
 
-| [User Authentication]  
+#### User Authentication  
 
-| [both frontend(react) and backend(django-DRF)]
+#### both frontend(react) and backend(django-DRF)
 
-| [Permissions]
+#### Permissions
 
-| [User authentication]
+#### User authentication
 
-| [Viewsets and rounters in DRF]
+#### Viewsets and rounters in DRF
 
-| [Redoc and swagger docs]
+#### Redoc and swagger docs
 
 
 as of now all the code detailes are available in code itself with lot of comments.
