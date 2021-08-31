@@ -5,13 +5,9 @@
 todo
 
 | ├──frontend
-
-
       ├──React...
 
 | ├──backend
-
-
    ├──Django...
 
 
