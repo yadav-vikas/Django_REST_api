@@ -6,11 +6,13 @@ todo
 
 | ├──frontend
 
-|   ├──React...
+
+      ├──React...
 
 | ├──backend
 
-|   ├──Django...
+
+   ├──Django...
 
 
 this is AllowAny authentication method which means any requested is accepted in this API.
