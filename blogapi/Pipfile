@@ -8,6 +8,10 @@ django = "*"
 djangorestframework = "*"
 django-rest-auth = "*"
 django-allauth = "*"
+coreapi = "*"
+pyyaml = "*"
+uritemplate = "*"
+drf-yasg = "*"
 
 [dev-packages]
 
