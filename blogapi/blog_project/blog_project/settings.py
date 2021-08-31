@@ -40,14 +40,29 @@ INSTALLED_APPS = [
 
     'posts.apps.PostsConfig',
     'rest_framework',
-        
+    'rest_framework.authtoken',
+    'allauth', # new
+    'allauth.account', # new
+    'allauth.socialaccount', # new
+    'rest_auth',
+    'rest_auth.registration', # new
+    'django.contrib.sites',
+            
 ]
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
-        
-    ]
+    ],
+    
+        'DEFAULT_AUTHENTICATION_CLASSES':[
+            'rest_framework.authentication.SessionAuthentication',
+            #Sessions are used to power the Browsable API and the ability to log in and log out of it.
+            #'rest_framework.authentication.BasicAuthentication',
+            # BasicAuthentication is used to pass the session ID in the HTTP headers for the API itself.
+            'rest_framework.authentication.TokenAuthentication',
+            #use tokens to pass authentication credentials back and forth in our HTTP headers.
+        ],
 }
 
 MIDDLEWARE = [
@@ -134,3 +149,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
+SITE_ID = 1
