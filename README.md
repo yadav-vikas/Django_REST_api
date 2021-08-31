@@ -5,7 +5,7 @@ I've completed this book learned about DRF framework in django
 
 Django for APIs is a project-based guide to building modern APIs with Django & Django REST Framework.
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/61oi4GBRfLL.jpg" alt="Django For APIs" height="400" width="400"/>
+<img src="https://images-na.ssl-images-amazon.com/images/I/61oi4GBRfLL.jpg" alt="Django For APIs" height="500" width="400"/>
 
 
 ### Topics
